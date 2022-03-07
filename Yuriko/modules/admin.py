@@ -176,7 +176,7 @@ def promote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("Bhai,Bhen jo bhi ho apke pass ye right na ha sorry aur so sameless you are saste admin  🙂 dil se bura laga support @DeeCodeBots")
+        message.reply_text("I dont have sufficient rights bruhhhhh.........")
         return
 
     user_id = extract_user(message, args)
@@ -197,7 +197,7 @@ def promote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_id == bot.id:
-        message.reply_text("I can't promote myself!🤣 Koi admin ha wo merko admin dega 🤔")
+        message.reply_text("I can't promote myself!")
         return
 
     # set same perms as bot - bot can't assign higher perms than itself!
@@ -265,7 +265,7 @@ def lowpromote(update: Update, context: CallbackContext) -> str:
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect.💫.",
+            "You don't seem to be referring to a user or the ID specified is incorrect.",
         )
         return
 
@@ -275,7 +275,7 @@ def lowpromote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status in ('administrator', 'creator'):
-        message.reply_text("How Maltb ma fhir se usko admin bano wo jabki already admin ha🥺")
+        message.reply_text("How Maltb ma fhir se usko admin bano wo jabki already admin h.")
         return
 
     if user_id == bot.id:
