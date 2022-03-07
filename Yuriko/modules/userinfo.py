@@ -316,7 +316,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of A Bot."
          disaster_level_present = True
 
     try:
@@ -353,9 +353,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/YurikoLogger/5"),
+                                "Health", url="https://t.me/AnimeChatAura/1958147"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/YurikoLogger/6")
+                                "Disaster", url="https://t.me/AnimeChatAura/1958148")
                         ],
                     ]
                 ),
@@ -371,9 +371,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/YurikoLogger/5"),
+                                "Health", url="https://t.me/AnimeChatAura/1958147"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/YurikoLogger/6")
+                                "Disaster", url="https://t.me/AnimeChatAura/1958148")
                         ],
                     ]
                 ),
@@ -539,41 +539,41 @@ def __user_info__(user_id):
 
 __help__ = """
 *ID:*
-✗ /id - `get the current group id. If used by replying to a message, gets that user's id.`
+/id - `get the current group id. If used by replying to a message, gets that user's id.`
 
-✗ /gifid - `reply to a gif to me to tell you its file ID.`
+/gifid - `reply to a gif to me to tell you its file ID.`
  
 *Self addded information:* 
 
-✗ /setme - `<text> will set your info.`
+/setme - `<text> will set your info.`
 
-✗ /me - `will get your or another user's info.`
+/me - `will get your or another user's info.`
 
 Examples:
 
-✗ /setme - `I am a` *DᴇCᴏᴅᴇ* `Member.`
+/setme - `I am a` *DᴇCᴏᴅᴇ* `Member.`
 
-✗ /me - `@username(defaults to yours if no user specified)`
+/me - `@username(defaults to yours if no user specified)`
  
 *Information others add on you:* 
 
-✗ /bio - `will get your or another user's bio. This cannot be set by yourself.`
+/bio - `will get your or another user's bio. This cannot be set by yourself.`
 
-✗ /setbio - `<text> while replying, will save another user's bio`
+/setbio - `<text> while replying, will save another user's bio`
 
 *Examples:*
 
-✗ /bio - `@username(defaults to yours if not specified).`
+/bio - `@username(defaults to yours if not specified).`
 
-✗ /setbio - `This user is a` *DᴇCᴏᴅᴇ* `Member (reply to the user)`
+/setbio - `This user is a` *DᴇCᴏᴅᴇ* `Member (reply to the user)`
  
 *Overall Information about you:*
 
-✗ /info - `get information about a user.`
+/info - `get information about a user.`
  
 *json Detailed info:*
 
-✗ /json - `Get Detailed info about any message.`
+/json - `Get Detailed info about any message.`
  
 *AFk:*
 
@@ -585,9 +585,8 @@ Examples:
 
 *What is that health thingy?*
 
- `Come and see` [HP System explained](https://t.me/YurikoLogger/5)
+ `Come and see` [HP System explained](https://t.me/AnimeChatAura/1958147)
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio, run_async=True)
